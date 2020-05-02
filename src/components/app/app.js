@@ -21,6 +21,7 @@ export default class App extends Component{
         ]
     };
 
+
     createTodoItem(label){
         return {
             label,
@@ -104,7 +105,7 @@ export default class App extends Component{
                     onToggleImportant = { this.onToggleImportant }
                     onToggleDone = { this.onToggleDone }
                     />
-                <ItemAddForm addItem = { () => {this.addItem()} }/>
+                <ItemAddForm onItemAdded = { this.addItem }/>
             </div>
         );
     }
