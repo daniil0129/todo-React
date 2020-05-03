@@ -1,5 +1,5 @@
-###React App todo
-___
+React App todo
+---
 Install
 * git clone https://github.com/daniil0129/todo-React.git
 
